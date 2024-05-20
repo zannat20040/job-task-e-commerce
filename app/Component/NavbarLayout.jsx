@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/Group 37623.png";
-import bar from "../public/Vector.png";
+import logo from "../../public/Group 37623.png";
+import bar from "../../public/Vector.png";
 
 const NavbarLayout = () => {
   const [pathname, setPathname] = useState("/"); 
@@ -12,7 +12,7 @@ const NavbarLayout = () => {
     setPathname(path);
   };
 
-  console.log(pathname);
+  // console.log(pathname);
   return (
     <div className="bg-[#212529] text-white inter-font py-1">
       <div className="navbar px-5 mx-auto">

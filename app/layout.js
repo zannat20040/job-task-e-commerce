@@ -1,7 +1,7 @@
 import "./globals.css";
 import Head from "next/head";
-import NavbarLayout from "@/Component/NavbarLayout";
-import FooterLayout from "@/Component/FooterLayout";
+import NavbarLayout from "./Component/NavbarLayout";
+import FooterLayout from "./Component/FooterLayout";
 
 
 export const metadata = {

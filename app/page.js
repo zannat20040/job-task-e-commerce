@@ -1,8 +1,8 @@
 "use client";
-import Pagination from "@/Component/Pagination";
-import ProductDesign from "@/Component/ProductDesign";
-import ProductLayout from "@/Component/ProductLayout";
-import SideCart from "@/Component/SideCart";
+import Pagination from "./Component/Pagination";
+import ProductDesign from "./Component/ProductDesign";
+import ProductLayout from "./Component/ProductLayout";
+import SideCart from "./Component/SideCart";
 import { useState } from "react";
 
 
@@ -26,7 +26,7 @@ export default function Home() {
     setCurrentPage(pageNumber);
   };
 
-  console.log(carts);
+  // console.log(carts);
 
   return (
     <main className=" mx-auto px-5 py-16">

@@ -1,7 +1,7 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
-import prev from "../public/back.png";
-import next from "../public/back (1).png";
+import prev from "../../public/back.png";
+import next from "../../public/back (1).png";
 import Image from "next/image";
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {

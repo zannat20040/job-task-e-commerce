@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../public/Group 37623.png";
+import logo from "../../public/Group 37623.png";
 import Image from "next/image";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const FooterLayout = () => {
   return (
-    <footer className="bg-[#212529] text-white  footer py-10 px-5 inter-font grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 justify-between">
+    <footer className="bg-[#212529] text-white  footer py-10 px-5 inter-font grid grid-cols-2 lg:grid-cols-5 gap-10 justify-between">
       <aside className="lg:col-span-2">
         <Image src={logo} alt="logo" />
         <div className="mt-4 flex flex-col gap-2">
