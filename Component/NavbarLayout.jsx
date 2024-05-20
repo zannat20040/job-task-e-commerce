@@ -6,7 +6,7 @@ import logo from "../public/Group 37623.png";
 import bar from "../public/Vector.png";
 
 const NavbarLayout = () => {
-  const [pathname, setPathname] = useState("/"); // Initialize with the default pathname
+  const [pathname, setPathname] = useState("/"); 
 
   const handleLinkClick = (path) => {
     setPathname(path);
